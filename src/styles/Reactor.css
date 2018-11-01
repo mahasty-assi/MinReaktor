@@ -1,0 +1,72 @@
+.reactorSection{
+    position: relative;
+    height: 260px;
+    background-color: darkseagreen;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.reactorArea{
+    position: relative;
+}
+
+.reactorAtom{
+    width: 70px;
+    margin: 3px;
+}
+
+.trashBtn{
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 1%;
+    background: yellow;
+}
+
+.checkBtn{
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: 1%;
+    background: darkseagreen;
+}
+
+.reactorRow{
+    display: table;
+    width: 100%; /*Optional*/
+    height: 100px;
+    position: absolute;
+}
+
+.leftColumn{
+    display: table-cell;
+    width: 35%;
+}
+
+.middleColumn{
+    display: table-cell;
+    width: 20%;
+    vertical-align: top;
+    padding-top: 80px;
+}
+.rightColumn{
+    display: table-cell;
+    width: 35%;
+    vertical-align: middle;
+    text-align: center;
+}
+.imgContainer{
+    align-content: left;
+}
+.reactorImg{
+    height: 220px;
+}
+
+.reactionInfo{
+    position: relative;
+    horiz-align: left;
+}
+
+.atomDisplay{
+    width: 100%;
+    position: absolute;
+    align-content: center;
+}
